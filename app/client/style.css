@@ -1,4 +1,108 @@
 body {
   background: url('images/365LogScreenEdit2.PNG');
-  background-color:  #32a8a8;
+  padding-bottom: .227px;
+  padding-top: .227px;
+}
+
+#SignCont {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 440px !important;
+  width: calc(100% - 40px);
+  padding: 44px;
+  margin-bottom: 28px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+  min-width: 320px;
+  min-height: 338px;
+  overflow: hidden;
+}
+
+#SignInBox {
+
+}
+
+#SignText {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.75rem;
+  padding-bottom: .227px;
+  padding-top: 10px;
+}
+
+#SignInput {
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#NewAccount {
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+#NewAccountLink {
+  margin-left: 5px;
+}
+
+#NewAccountLink:hover {
+  text-decoration: underline;
+
+}
+
+#SecurityKey {
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+#SecurityKey:hover {
+  text-decoration: underline;
+}
+
+#SecurityText {
+  margin-right: 0;
+}
+
+button.ui.blue.button {
+  border-radius: 0;
+  background-color: #005da6;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+#NextBtn {
+  float: right;
+}
+
+#btmBar {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 440px !important;
+  max-height: 48px;
+  width: calc(100% - 40px);
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 8px;
+  padding-bottom: 50px;
+  margin-bottom: 28px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+  min-width: 320px;
+  #overflow: hidden;
+}
+
+#btmBar:hover {
+  background-color: grey;
+}
+
+#btmBar.p {
+  font-size: 500px;
+  line-height: 20px;
+  font-weight: 400;
 }
