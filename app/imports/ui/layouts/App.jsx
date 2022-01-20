@@ -28,7 +28,7 @@ class App extends React.Component {
                 No account?
                 <a id='NewAccountLink' href="https://signup.live.com/signup?wa=wsignin1.0&rpsnv=13&ct=1642617872&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.
                 com%2fowa%2f%3fnlp%3d1%26RpsCsrfState%3deb6efa4c-ced2-7c89-2b19-dc39ac1aae75&id=292841&aadredir=1&whr=gmail.com&CBCXT=out&lw=1&fl=dob%2cfl
-                name%2cwld&cobrandid=90015&contextid=3AA020549F5DEF0F&bk=1642617872&uiflavor=web&lic=1&mkt=EN-US&lc=1033&uaid=ad8b285563c149bb82c976c86dc63cec">Create one!</a>
+                name%2cwld&cobrandid=90015&contextid=3AA020549F5DEF0F&bk=1642617872&uiflavor=web&lic=1&mkt=EN-US&lc=1033&uaid=ad8b285563c149bb82c976c86dc63cec" target="blank">Create one!</a>
               </p>
             </Grid>
             <Grid id='SecurityKey'>
@@ -47,8 +47,8 @@ class App extends React.Component {
           </Container>
         </Container>
         <Container id='footer'>
-          <a id='footer1' href="https://login.live.com/gls.srf?urlID=WinLiveTermsOfUse&mkt=EN-US&uaid=3f9d75c683514cde8db419e0794d0f1e">Terms of use</a>
-          <a id='footer2' href="https://login.live.com/gls.srf?urlID=MSNPrivacyStatement&mkt=EN-US&uaid=3f9d75c683514cde8db419e0794d0f1e">Privacy & cookies</a>
+          <a id='footer1' href="https://login.live.com/gls.srf?urlID=WinLiveTermsOfUse&mkt=EN-US&uaid=3f9d75c683514cde8db419e0794d0f1e" target="blank">Terms of use</a>
+          <a id='footer2' href="https://login.live.com/gls.srf?urlID=MSNPrivacyStatement&mkt=EN-US&uaid=3f9d75c683514cde8db419e0794d0f1e" target="blank">Privacy & cookies</a>
           <a>...</a>
         </Container>
       </Container>
